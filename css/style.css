@@ -1,0 +1,611 @@
+@charset "utf-8";
+body{
+	background: #f6f6f6;
+}
+/* logo */
+.public-header .w1000 .logo{
+	margin-top: 10px;
+}
+.public-header .w1000 .logo .logo1{
+	margin-left: 26px;
+}
+/* 头部设置样式 */
+.public-header{
+	border-bottom: 2px solid #7ec08a;
+	height: 98px;
+}
+/* 中间内容 */
+
+.content .w1000{
+	display: flex;
+	
+}
+.content .w1000 .image1{
+	margin-left: 12px;
+	margin-top: 23px;
+	width: 800px;
+}
+.content .w1000 .image1 span{
+	font-size: 16px ;
+}
+.content .w1000 .image2{
+	margin-top: 25px;
+	overflow: hidden;
+}
+.content .w1000 .image2 a{
+	color: blue;
+}
+.content .kuang{
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	width: 1000px;
+	margin: 23px auto;
+	position: relative;
+	height: 548px;
+	background: white;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.content .kuang .zhuce{
+	height: 108px;
+	background: url("../images/back1.jpg") repeat-x;
+}
+/* 第一进度条 */
+.content .kuang .zhuce .tianxie{
+	width: 240px;
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang .zhuce .tianxie img{
+	margin-top: 41px;
+}
+/* 第二进度条 */
+.content .kuang .zhuce .jieshou{
+	width: 243px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 250px;
+}
+.content .kuang .zhuce .jieshou img{
+	margin-top: 41px;
+}
+.content .kuang .zhuce .zhuce1{
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang .zhuce .jieshou1{
+	position: absolute;
+	margin-left: 423px;
+	margin-top: 13px;
+}
+
+.content .kuang .zhuce .chenggong{
+	width: 448px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 492px;
+}
+.content .kuang .zhuce .chenggong img{
+	margin-top: 27px;
+}
+.content .kuang .zhuce .chenggong1{
+	margin-left: 390px;
+}
+/* 填写部分 */
+.zhuce-d{
+	background-color:white;
+	width: 780px; 
+}
+.zhuce-d .intent input{
+	border: 1px solid #ccc;
+	width: 242px;
+	height: 33px;
+	margin-top: 21px;
+	margin-left: 11px;
+	box-shadow: 2px 2px 2px #ccc inset;
+}
+.zhuce-d .intent {
+	margin-left: 48px;
+}
+.zhuce-d .ontent{
+	margin-left: 35px;
+	
+}
+.zhuce-d .ontent input{
+	width: 132px;
+	height: 33px;
+	border: 1px solid #ccc;
+	margin-top: 21px;
+	margin-left: 11px;
+	box-shadow: 2px 2px 2px #ccc inset;
+}
+.zhuce-d .ontent img{
+	margin-left: 35px;
+}
+.zhuce-d .ontent span{
+	margin-left: 19px;
+}
+.zhuce-d .little{
+	margin-left: 115px;
+	margin-top: 30px;
+}
+/* 申请注册 */
+.zhuce-d p:last-child input{
+	width: 130px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 34px;
+	text-align: center;
+	background-color:#ff9000;
+	color: white; 
+	border-radius: 5px;
+	margin-left: 115px;
+	margin-top: 30px;
+}
+.flex{
+	display: flex;
+}
+/* 右边二维码 */
+.erweima{
+	width: 198px;
+	height: 395px;
+	border: 1px solid #ccc;
+	margin-top:20px;
+	background: white;
+}
+.erweima img:first-child{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.erweima img:nth-child(2){
+	margin-left: 55px;
+	margin-top: 20px;
+}
+.erweima img:last-child{
+	margin-top: 35px;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	margin-bottom: 0px;
+	border-top: 1px solid #ccc;
+}
+.guanyu ul{
+	width: 700px;
+	height: 40px;
+	margin: 0 auto;
+}
+.guanyu ul li{
+	height: 40px;
+	width: 125px;
+	float: left;
+	margin-top: 8px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	background: url("../images/line.png") no-repeat right;
+}
+.guanyu ul li:last-child{
+	background: none;
+}
+.footer div{
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+
+
+/* 第二个页面 */
+.content .kuang2{
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	width: 1000px;
+	margin: 23px auto;
+	position: relative;
+	height: 843px;
+	background: white;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.content .kuang2 .zhuce{
+	height: 108px;
+	background: url("../images/back1.jpg") repeat-x;
+}
+/* 第一进度条 */
+.content .kuang2 .zhuce .tianxie{
+	width: 240px;
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang2 .zhuce .tianxie img{
+	margin-top: 41px;
+}
+/* 第二进度条 */
+.content .kuang2 .zhuce .jieshou{
+	width: 243px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 250px;
+}
+.content .kuang2 .zhuce .jieshou img{
+	margin-top: 41px;
+}
+.content .kuang2 .zhuce .zhuce1{
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang2 .zhuce .jieshou1{
+	position: absolute;
+	margin-left: 423px;
+	margin-top: 13px;
+}
+
+.content .kuang2 .zhuce .chenggong{
+	width: 448px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 492px;
+}
+.content .kuang2 .zhuce .chenggong img{
+	margin-top: 27px;
+}
+.content .kuang2 .zhuce .chenggong1{
+	margin-left: 390px;
+}
+
+/*左边验证码*/
+.bigzhuce{
+	width: 778px;
+	margin-top:29px;
+}
+.bigzhuce span:nth-child(2){
+	color:#ff9000;
+}
+.bigzhuce span:first-child{
+	padding-left: 114px;
+}
+/*验证码框*/
+.bigzhuce .yanzheng{
+	margin-left: 63px;
+	margin-top:39px;
+}
+.bigzhuce .yanzheng input{
+	width: 160px;
+	height: 30px;
+	border:1px solid #ccc;
+	box-shadow: 2px 2px 2px #ccc inset;
+	margin-left: 10px;
+}
+
+.bigzhuce .btn input{
+	font-size: 16px;
+	color: white;
+	line-height: 33px;
+	margin-left: 24px;
+	width: 160px;
+	height: 33px;
+	background-color: #ff9000;
+	margin-left: 115px;
+	margin-top:16px;
+	border-radius: 3px;
+}
+.bigzhuce .xuxian{
+	border:1px dashed #ccc;
+	width:748px;
+	margin:39px auto;
+	margin-bottom: 0px;
+}
+.bigzhuce .message p{
+	margin-top: 50px;
+	margin-left: 115px;
+}
+.bigzhuce .message button{
+	width: 128px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #f3f3f3;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 116px;
+	margin-top: 31px;
+}
+.problem{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* 第三个页面 */
+
+.content .kuang3{
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	width: 1000px;
+	margin: 23px auto;
+	position: relative;
+	height: 698px;
+	background: white;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.content .kuang3 .zhuce{
+	height: 108px;
+	background: url("../images/back1.jpg") repeat-x;
+}
+/* 第一进度条 */
+.content .kuang3 .zhuce .tianxie{
+	width: 240px;
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang3 .zhuce .tianxie img{
+	margin-top: 41px;
+}
+/* 第二进度条 */
+.content .kuang3 .zhuce .jieshou{
+	width: 243px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 250px;
+}
+.content .kuang3 .zhuce .jieshou img{
+	margin-top: 41px;
+}
+.content .kuang3 .zhuce .zhuce1{
+	position: absolute;
+	margin-left: 33px;
+	margin-top: 13px;
+}
+.content .kuang3 .zhuce .jieshou1{
+	position: absolute;
+	margin-left: 423px;
+	margin-top: 13px;
+}
+
+.content .kuang3 .zhuce .chenggong{
+	width: 448px;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 492px;
+}
+.content .kuang3 .zhuce .chenggong img{
+	margin-top: 27px;
+}
+.content .kuang3 .zhuce .chenggong1{
+	margin-left: 390px;
+}
+.success{
+	width: 420px;
+	height: 130px;
+	margin: 60px auto;
+	margin-bottom: 0px;
+	position: relative;
+}
+.success img{
+	width: 48px;
+	height: 48px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.success .p1{
+	position: absolute;
+	margin-left: 73px;
+	margin-top: -40px;
+	font-size: 16px;
+}
+.success .p2{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 73px;
+}
+.success .p2 span{
+	color: #ff9000;
+}
+.success button{
+	width: 118px;
+	height: 29px;
+	border: 1px solid #ff9000;
+	background-color:#ff9000;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 31px;
+	border-radius: 3px;
+	position: absolute;
+	margin-left: 192px;
+	margin-top: 39px;
+}
+.kuang3 .erwei{
+	width: 196px;
+	height: 210px;
+	border: 1px solid #ccc;
+	margin-left: 395px;
+}
+.kuang3 .erwei img:first-child{
+	margin-top: 20px;
+	margin-left: 23px;
+}
+.kuang3 .erwei img:last-child{
+	margin-top: 12px;
+	margin-left: 40px;
+}
+body{
+	position: relative;
+}
+.bgd{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(175,175,175,0.5) ;
+	position: absolute;
+	z-index: 998;
+	display: none;
+}
+/* 登陆界面小弹框 */
+.land{
+	width: 358px;
+	height: 380px;
+	border: 1px solid #bed6b2;
+	position: absolute;
+	z-index: 999;
+	background-color: white; 
+	top: 30%;
+	left: 40%;
+	display: none;
+}
+.land .land-top{
+	display: flex;
+	background: url("../images/back1.jpg");
+}
+.land .land-top a:first-child{
+	width: 179px;
+	height: 52px;
+	font-size: 16px;
+	line-height: 52px;
+	text-align: center;
+	color: #999999;
+	font-weight: bold;
+	border-bottom: 1px solid #49a75b;
+}
+.land .land-top a:last-child{
+	width: 179px;
+	height: 52px;
+	font-size: 16px;
+	line-height: 52px;
+	text-align: center;
+	color: #999999;
+	font-weight: bold;
+	border-bottom: 1px solid #49a75b;
+}
+
+/* form表单 */
+/*密码登陆*/
+.downland{
+	display: none;
+}
+.land .onland p input{
+	width: 298px;
+	height: 39px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-indent: 2rem;
+}
+.land .onland p:first-child{
+	margin-top: 28px;
+	margin-left: 31px;
+}
+.land .onland p:nth-child(2){
+	margin-top: 23px;
+	margin-left: 31px;
+}
+.land .onland p:nth-child(3) input{
+	width: 10px;
+	height: 10px;
+	margin-left: 31px;
+	margin-top: 16px;
+}
+.land .onland p:nth-child(3) a{
+	margin-left: 170px;
+}
+.land .onland p button{
+	width: 298px;
+	height: 32px;
+	background-color: #49a75b;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 23px;
+	margin-left: 32px;
+	border-radius: 5px;
+}
+.land .onland div{
+	width: 340px;
+	height: 50px;
+	background-color: #f7fbf5;
+	margin-top: 20px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.land .onland div span{
+	margin-left: 15px;
+}
+/*手机验证码登陆*/
+.land .downland p input{
+	width: 298px;
+	height: 39px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-indent: 2rem;
+}
+.land .downland p:first-child{
+	margin-top: 28px;
+	margin-left: 31px;
+}
+.land .downland p:nth-child(2) input,
+.land .downland p:nth-child(3) input
+{
+	width:122px;
+	height:38px;
+}
+.land .downland p:nth-child(2),
+.land .downland p:nth-child(3)
+{
+	margin-top:20px;
+	margin-left:31px;
+}
+.land .downland p:nth-child(3) span{
+	border:1px solid #ccc;
+	padding:3px;
+	margin-left: 20px;
+	border-radius: 5px;
+	color:black;
+}
+.land .downland p button{
+	width: 298px;
+	height: 32px;
+	background-color: #49a75b;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 23px;
+	margin-left: 32px;
+	border-radius: 5px;
+}
+.land .downland div{
+	width: 340px;
+	height: 50px;
+	background-color: #f7fbf5;
+	margin-top: 20px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.land .downland div span{
+	margin-left: 20px;
+}
+.land .land-top a:hover{
+	border-bottom: 3px solid green;
+}
+/*跳转*/
+.tzts{
+	width:400px;
+	height:200px;
+	background-color:lightblue;
+	text-align: center;
+	line-height:200px;
+	position: absolute;
+	top:40%;
+	left:40%;
+	display: none;
+}
+
+
+
